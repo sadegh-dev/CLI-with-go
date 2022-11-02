@@ -426,6 +426,31 @@
 
 
 
+# authentication
+	- points of auth
+	-[NOT USE] use default User-model-class
+	-[NOT USE] relation one-to-one with default User-model-class
+	- custom User-model-class
+	- different AbstractUser and AbstractBaseUser
+	- use CBV in authentication Views
+	- change authentication password
+	- oauth
+	- reset password by CBV
+	- signup new-user by create_user method in default User-model-class
+	- default login method
+	-[NOT USE] use authentication-backend for get Email and use comparison username and email
+	- default logout method
+	- access user-data in views after login
+	- access user-data in template-file after login
+	- block out run function-views for user not logged
+	- block out run class-views for user not logged
+
+
+
+
+
+
+
 
 
 
@@ -443,6 +468,8 @@
 # modules
 	- ...
 
+
+
 [DJANGO MODULES]
 
 
@@ -452,29 +479,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # django-filter module
-
-
-
-
-
-
-
-
 
 
 
