@@ -51,9 +51,6 @@
 # multi_threading
 
 
-
-
-
 # scraping
 	- ...
 
@@ -126,6 +123,7 @@
 	- SOLID architecture
 
 
+
 # design patterns
 
 	- singleton [creational]
@@ -175,6 +173,7 @@
 	- circular imports / circular dependency
 
 
+
 # benchmarking
 
 	- timeit module
@@ -204,6 +203,80 @@
 # pillow_module
 # pylint_module
 # mypy_module
+
+
+
+[DJANGO]
+
+# launch
+	- config settings for launch
+	- delete static settings from main urls.py
+	- upload django project on server
+
+
+# general
+	- general points
+	- running multiple Django projects through different ports 
+	- run command on shell
+	- Meta class
+
+
+# install
+	- create project
+	- rename project
+
+
+# settings
+	- general config
+	- general variables
+	- connect to email-service [like gmail]
+
+
+# HttpRequest
+
+
+# templates
+	- default template structure
+	- center template structure
+	- template structure connect react
+	- send data from views to template
+	- access to HTTP-method
+	- initialize the variable by with
+	- create link
+	- partitioning HTML files
+	- pagination
+	- list tags
+	- built-in template filter
+	- create html page 404
+
+
+# static/media
+	- static files
+	- media files
+	- media and statc files structures
+	- run collectstatic command
+	- use jquery
+
+
+
+# views
+	- points of views
+	- decoratores
+	- structure views function
+	- direct use HTML-tag in function-views
+	- redirect in views
+	+ CBV : class base view
+		- View class
+		- TemplateView class
+		- RedirectView class
+		- ListView class
+
+
+
+
+
+
+
 
 
 
