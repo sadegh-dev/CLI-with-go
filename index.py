@@ -1,7 +1,69 @@
 """
 [PYTHON]
 
-#OOP
+# install
+# pip
+# env
+# general
+# input
+# print
+# comment
+# anaconda
+# file
+
+# algorithms
+# clean_code
+# pep8
+
+# variable
+# math
+# string
+# rando_module
+# math_module
+
+
+# iteration
+# array
+# list
+# set
+# tuple
+# dictionary
+
+# comprehension
+# generators
+
+# collections_module
+# itertools_module
+# numpy_module
+
+
+# decorator
+# lambda
+# functions
+# functools_module
+# module
+
+
+# context_manager
+# annotations
+# regex
+# security
+# multi_threading
+
+
+
+
+
+# scraping
+	- ...
+
+
+# rabbitMQ
+	- ...
+
+
+# OOP
+
 	- list class Methods
 	- obj.__dict__
 	- class variables
@@ -65,6 +127,7 @@
 
 
 # design patterns
+
 	- singleton [creational]
 	- factory [creational]
 	- abstract factory [creational]
@@ -81,6 +144,72 @@
 	- template methods [behavioral]
 	- state [behavioral]
 	- composite [creational]
+
+
+
+# unit_test
+
+	- general
+	- doctest module
+	- unittest module
+	- nose module
+	- pytest module
+	- selenium module
+
+
+
+# debugging
+
+	- general debugging
+	- errors management
+	- EAFP
+	- error types
+	- more except
+	- EOF error
+	- EOL error
+	- error message
+	- custom except
+	- custom except class
+	- debugging in VScode
+	- errors logfile
+	- circular imports / circular dependency
+
+
+# benchmarking
+
+	- timeit module
+	- line_profile module
+	- memory_profile module
+	- resource module
+
+
+
+[PYTHON MODULES]
+
+# python_docx_module
+# datetime_module
+# requests_module
+# beautifulsoup_module
+# platform_module
+# sys_module
+# os_module
+# json_module
+# time_module
+# operator_module
+# whois_domain
+# dataclass_module
+# contextlib_module
+# logging_module
+# smtplib_module
+# pillow_module
+# pylint_module
+# mypy_module
+
+
+
+
+
+
 
 
 
