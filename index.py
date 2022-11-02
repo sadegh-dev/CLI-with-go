@@ -270,6 +270,159 @@
 		- TemplateView class
 		- RedirectView class
 		- ListView class
+		- DetailView class
+		- MonthArchiveView class
+
+		- FormView class
+		- CreateView class
+		- DeleteView class
+		- UpdateView class
+
+		- mixin
+		- FormMixin
+
+	- manager types [like: get, all, filter]
+	- custom decorator for computing querySet time
+	- optimization QuerySet for get data in relation-class
+	- list field-lookups of querySet
+	- F-experssions
+	- union several querySet
+	- create-update-delete-add
+	- create search
+	- complex lookup – Q function
+	- Full text search
+	- create custom manager
+	- Http 404
+
+
+# messages
+	- points of message
+	- create message
+
+
+
+# signals
+	- points of signals
+	- practical examples of signals
+	- basic signal settings
+	- pre_save - post_save
+	- way of call the signals method
+	- pre_delete - post_delete
+
+
+# urls
+	- points of urls
+	- Error handling
+	- create url by parameters
+	- Initial value for passed arguments
+	- path function
+	- re_path function
+	- set url-name
+	- cancellation of famous url-name
+	- set namespace for app
+	- create unique url-slug
+	- send parameters by url to views
+	- persian url
+	- set slug in admin panel
+	- reverse, reverse_lazy methods
+	- difference in methods of reverse - reverse_lazy
+	- grouping urlpatterns
+	- Subset creation for addresses with a common pattern
+
+
+
+# admin
+	- points of admin
+	- default admin-panel
+	- custom admin-panel for the class
+	- admin action
+	- admin title
+	- custom style admin-panel
+	- creating computational field in admin-panel
+	- set validation-field in admin-panel
+
+
+
+# app
+	- points of app
+	- create new app
+	- create app inside main directory
+
+
+
+# models
+	- points of models
+	- create package model
+	- ORM : object relational mapping
+	- naming model
+	- field types
+	- field options
+	+ related methods
+		- create method
+		- save method
+		- delete method
+		- add method
+		- remove method
+		- clear method
+		- set method
+		- update method
+	+ overrite default methods
+		- override save method
+		- override delete method
+	- creating proccessing functions on field
+	- __str__ method in model-class
+	- get_absolute_url method in model-class
+	- Meta class in model-class
+	+ abstract - inheritance
+		- abstract base classes
+		- multi-table inheritance
+		- proxy models
+	+ relation between classes
+		- one to many [ForeignKey]
+		- one to one
+		- many to many
+		- intermediate model
+		- backward relation
+		- on_delete attribute
+		- limit_choices_to attribute
+	- migrations
+	- content types
+
+
+# middleware
+
+# db
+	- points of database
+	- sqlite3
+	- postgreSQL
+	- mySQL
+	- mongoDB
+	- use several databases
+
+
+# forms
+	- strategy
+	- points of forms
+	- normal form structure
+	- list of field-form
+	- list of widgets
+	- create date-time field
+	- create shamsi date-time field
+	- create form by forms.ModelForm
+	- help_desk – widget – error_messages in forms.ModelForm
+	- create edit-form by forms.ModelForm
+	- edit 2 model-class by 1 form
+	- create delete-button by forms.ModelForm
+	- initialization fields-form
+	- set reCAPTCHA in form
+	- create form by forms.Form
+	- create 2 form in 1 page
+	- different ways of displayeing form in html-page
+	- default validation and form errors
+	- create custom validation form
+	- set persian form-errors
+	- deactive validation-fom [not recommended]
+	- management forms.ValidationError
 
 
 
@@ -277,6 +430,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+# modules
+	- ...
+
+[DJANGO MODULES]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# django-filter module
 
 
 
