@@ -1,5 +1,5 @@
 """
-[PYTHON]
+############### [PYTHON] ###############
 
 # install
 # pip
@@ -59,8 +59,8 @@
 	- ...
 
 
-# OOP
 
+# OOP
 	- list class Methods
 	- obj.__dict__
 	- class variables
@@ -125,7 +125,6 @@
 
 
 # design patterns
-
 	- singleton [creational]
 	- factory [creational]
 	- abstract factory [creational]
@@ -146,7 +145,6 @@
 
 
 # unit_test
-
 	- general
 	- doctest module
 	- unittest module
@@ -157,7 +155,6 @@
 
 
 # debugging
-
 	- general debugging
 	- errors management
 	- EAFP
@@ -175,7 +172,6 @@
 
 
 # benchmarking
-
 	- timeit module
 	- line_profile module
 	- memory_profile module
@@ -206,12 +202,14 @@
 
 
 
-[DJANGO]
+
+############## [DJANGO] ###############
 
 # launch
 	- config settings for launch
 	- delete static settings from main urls.py
 	- upload django project on server
+
 
 
 # general
@@ -221,15 +219,18 @@
 	- Meta class
 
 
+
 # install
 	- create project
 	- rename project
+
 
 
 # settings
 	- general config
 	- general variables
 	- connect to email-service [like gmail]
+
 
 
 # HttpRequest
@@ -248,6 +249,7 @@
 	- list tags
 	- built-in template filter
 	- create html page 404
+
 
 
 # static/media
@@ -295,6 +297,7 @@
 	- Http 404
 
 
+
 # messages
 	- points of message
 	- create message
@@ -308,6 +311,7 @@
 	- pre_save - post_save
 	- way of call the signals method
 	- pre_delete - post_delete
+
 
 
 # urls
@@ -389,6 +393,7 @@
 	- content types
 
 
+
 # middleware
 
 # db
@@ -398,6 +403,7 @@
 	- mySQL
 	- mongoDB
 	- use several databases
+
 
 
 # forms
@@ -462,9 +468,11 @@
 	- points of security
 
 
+
 # permission
 
 # debugging
+
 
 # celery
 	- points of celery
@@ -498,6 +506,7 @@
 # sessions
 
 
+
 # testing
 	- points of testing
 	- testing plan
@@ -519,8 +528,10 @@
 
 # aggregation
 
+
 # annotate
 	- aggregating annotations
+
 
 
 # gunicorn
@@ -529,37 +540,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # modules
-	- ...
+	- custom module
+	- Markdown module
+	- RegEx module
+	- ckeditor module
+	- pillow module
+	- timezone module
+	- sorl-thumbnail module
+	- django-filter module
 
-
-
-[DJANGO MODULES]
-
-
-
-
-
-
-
-
-# django-filter module
 
 
 
