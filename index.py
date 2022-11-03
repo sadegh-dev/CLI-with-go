@@ -480,14 +480,52 @@
 
 
 
+# caching
+	- plan
+	- cache levels
+	- caching by redis
+	- caching by memcached
+	- cache arguments
+	- cache full webiste page
+	- cache views
+	- cache template
+	- delete old cache when new data is added
+	- The low-level cache API
+	- downstream caches
 
 
 
+# sessions
+
+
+# testing
+	- points of testing
+	- testing plan
+	- testing directory
+	- run tests
+	- test inheritance
+	- assertions
+	- testing tools
+	- testing urls
+	- testing forms
+	- testing models
+	- testing views
+	- pytest module for django project
+		- pytest marks functions
+		- custom mark functions
+		- fixture method
 
 
 
+# aggregation
+
+# annotate
+	- aggregating annotations
 
 
+# gunicorn
+
+# dockerize
 
 
 
