@@ -553,4 +553,41 @@
 
 
 
+########### [LINUX] ################
+
+
+# topics of linux
+# directory structure
+# work with terminal
+# curl commands
+# environment variables
+# packeage manager
+# process management
+# desktop environment
+
+
+
+########### [DEVOPS] ###############
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
