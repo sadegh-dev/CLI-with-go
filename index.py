@@ -444,8 +444,20 @@
 	- access user-data in template-file after login
 	- block out run function-views for user not logged
 	- block out run class-views for user not logged
+	-[NOT USE] default register method [with more fields]
+	-[NOT USE] create one-to-one User-class with profile-class
+	-[NOT USE]	create password and confirm password fields
+	- determining the user path after logout
+	- allow access to own page, not others
+	- login by phone number
 
 
+
+# security
+	- protected url of admin panel
+	- security of period upload project
+	- ...
+	
 
 
 
