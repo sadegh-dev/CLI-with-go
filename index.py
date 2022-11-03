@@ -454,10 +454,40 @@
 
 
 # security
-	- protected url of admin panel
+	- security topics
+	- protected admin-panel-url
 	- security of period upload project
-	- ...
-	
+	- cross site scripting (XSS)
+	- python-decouple
+	- points of security
+
+
+# permission
+
+# debugging
+
+# celery
+	- points of celery
+	- use celery in python code
+	- flower
+	- management comman-line utilities
+	- signatures in celery
+	- use celery in django project
+	- example of django-celery project
+	- celery beat
+	- example2 of dajngo-celery project
+	- worker running in background by supervisor
+
+
+
+
+
+
+
+
+
+
+
 
 
 
