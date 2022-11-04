@@ -61,9 +61,10 @@
 
 
 # OOP
-	- list class Methods
+	- list class methods
+	- points of OOP
 	- obj.__dict__
-	- class variables
+	- class/instance variable
 	- comparison Methods
 	- Container object
 	- iterable object
@@ -73,11 +74,10 @@
 		- getattr
 		- hasattr
 		- setattr
-
 	- polymorphism
-	- object (object)
+	- object input another object
 	- abstract class - abstract methods
-	- inheritance
+	- classes inheritance
 	- mixin class
 	- inheritancec from built-in objects
 	- multi inheritance
@@ -519,7 +519,7 @@
 	- testing forms
 	- testing models
 	- testing views
-	- pytest module for django project
+	+ pytest module for django project
 		- pytest marks functions
 		- custom mark functions
 		- fixture method
@@ -562,6 +562,8 @@
 # start create API
 # response
 # request
+
+
 # serializer
 	- points of serializer
 	- create serializer
@@ -578,22 +580,30 @@
 		- Field-level
 		- object-level
 		- validators
+
+
 # views
 	+ class base View
 		- ViewSet
 		- generics
 		- APIView
 	- function View
+
+
 # viewset
 	- points of viewset
 	- ModelViewSet
 	- ReadOnlyModelViewSet
+
+
 # class-field types and API-data
 # send json-data and create record-data
 # send json-data and update record-data
 # send json-data and delete record-data
 # two behavioral of save-method
 # status codes
+
+
 # authentication
 	- BasicAuthentication
 	- TokenAuthentication
@@ -601,35 +611,29 @@
 		- login with Token
 	- SessionAuthentication
 	- JWT
+
+
 # permissions
 	- point of premissions
 	- set permissions of function or class in Views
 	- types of permissions
+
+
 # throttling
 # caching
+
+
 # routers
 	- points of routers
 	- SimpleRouter
 	- DefaultRouter
+
+
 # Renderers
 # pagination
 # practical example and its tips
 # testing
 # swagger
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
