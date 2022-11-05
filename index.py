@@ -77,15 +77,19 @@
 	- polymorphism
 	- object input another object
 	- abstract class - abstract methods
-	- classes inheritance
+	+ classes inheritance
+		- super()
 	- mixin class
 	- inheritancec from built-in objects
 	- multi inheritance
 	- access levels in class
 	- decorator property
-	- methods types in class
+	+ methods types in class
+		- instance method
+		- static method
+		- class method
 	+ magic-special methods [built-in] in class
-		- __del__
+		- [Not USE] __del__
 		- __init__
 		- __new__
 		- __str__
@@ -113,7 +117,6 @@
 		- @property [getter]
 		- @name.setter
 		- @name.deleter
-
 	+ descriptors
 		- __set_name__
 		- __get__
