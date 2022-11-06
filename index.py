@@ -439,7 +439,7 @@
 	- points of auth
 	-[NOT USE] use default User-model-class
 	-[NOT USE] relation one-to-one with default User-model-class
-	- custom User-model-class
+	-* custom User-model-class
 	- different AbstractUser and AbstractBaseUser
 	- use CBV in authentication Views
 	- change authentication password
