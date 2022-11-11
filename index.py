@@ -270,7 +270,7 @@
 	- structure views function
 	- direct use HTML-tag in function-views
 	- redirect in views
-	+ CBV : class base view
+	+ CBV : class base view [https://ccbv.co.uk/]
 		- View class
 		- TemplateView class
 		- RedirectView class
