@@ -217,6 +217,7 @@
 
 # general
 	- general points
+	- request.method
 	- running multiple Django projects through different ports 
 	- run command on shell
 	- Meta class
