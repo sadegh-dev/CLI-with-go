@@ -689,45 +689,38 @@
 ####################################################
 ###################@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2
 @@@@@@@@@@@@@@@@@@@@22
-django
 django channels
 asyncio
-django rest framework
-celery
 mypy
 type annotations
 modular design
-CLASS-BASE coding
 Event-driven architectur
-microservice architectur
 ways of authentication & authorization
 unit testing
 TDD : test-driven development
-benchmarcking
 automated testing
 python libraries
-SOLID / KISS / DRY
-OOP
+OOP : SOLID / KISS / DRY
 Design patterns
 error handling
-PostgreSQL
+
 RDBMS
 database design
 query optimization
+
 multi threading
 multi proccesing
-PEP8
+
 data engineering
 server config
 visual studio code
 -----------------------
 monitoring service
 postman
-web scraping
 agile / scrum
 code review
-clean code
-rabbitMQ
+
+
 http protochol
 CI / CD
 gitlab CI/CD
@@ -735,20 +728,12 @@ gitlab CI/CD
 [داشبورد: grafana, kibana, metabase, amplitude.]
 ll
 -----------------------
-frontend
-jquery
-docker
-git
+
 Redis
 webSocket programming
-liux
 mongodb
-html - css - js
-react js
-bootstrap
-power BI
+
 soap
-graphQL
 nginx
 
 
