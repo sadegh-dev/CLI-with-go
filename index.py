@@ -48,8 +48,10 @@
 # annotations
 # regex
 # security
-# multi_threading
 
+# Multi_Threading
+# Multi_Processing
+# ASYNCIO I/O
 
 # scraping
 	- ...
