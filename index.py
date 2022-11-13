@@ -1,4 +1,25 @@
 """
+Python *5
+OOP    *5
+Design Patterns *3
+RabbitMQ  *3
+
+Django *5
+DRF    *5
+Celery *5
+
+PostgreSQL *3
+MongoDB    *3
+
+Linux  *3
+Docker *3
+GIT    *5
+GitLab CI/CD  *3
+
+Html / CSS  *5
+Bootstrap   *3
+
+
 ############### [PYTHON] ###############
 
 # install
@@ -21,7 +42,6 @@
 # rando_module
 # math_module
 
-
 # iteration
 # array
 # list
@@ -29,20 +49,18 @@
 # tuple
 # dictionary
 
-# comprehension
-# generators
-
 # collections_module
 # itertools_module
 # numpy_module
 
+# comprehension
+# generators
 
 # decorator
 # lambda
 # functions
 # functools_module
 # module
-
 
 # context_manager
 # annotations
@@ -53,14 +71,11 @@
 # Multi_Processing
 # ASYNCIO I/O
 
-# scraping
+# web Scraping
 	- ...
 
-
-# rabbitMQ
+# RabbitMQ
 	- ...
-
-
 
 # OOP
 	- list class methods
@@ -149,7 +164,7 @@
 
 
 
-# unit_test
+# Unit_Test
 	- general
 	- doctest module
 	- unittest module
@@ -158,8 +173,7 @@
 	- selenium module
 
 
-
-# debugging
+# Debugging
 	- general debugging
 	- errors management
 	- EAFP
@@ -175,13 +189,11 @@
 	- circular imports / circular dependency
 
 
-
-# benchmarking
+# Benchmarking
 	- timeit module
 	- line_profile module
 	- memory_profile module
 	- resource module
-
 
 
 [PYTHON MODULES]
@@ -216,7 +228,6 @@
 	- upload django project on server
 
 
-
 # general
 	- general points
 	- request.method
@@ -225,18 +236,15 @@
 	- Meta class
 
 
-
 # install
 	- create project
 	- rename project
-
 
 
 # settings
 	- general config
 	- general variables
 	- connect to email-service [like gmail]
-
 
 
 # HttpRequest
@@ -257,14 +265,12 @@
 	- create html page 404
 
 
-
 # static/media
 	- static files
 	- media files
 	- media and statc files structures
 	- run collectstatic command
 	- use jquery
-
 
 
 # views
@@ -303,11 +309,9 @@
 	- Http 404
 
 
-
 # messages
 	- points of message
 	- create message
-
 
 
 # signals
@@ -317,7 +321,6 @@
 	- pre_save - post_save
 	- way of call the signals method
 	- pre_delete - post_delete
-
 
 
 # urls
@@ -340,7 +343,6 @@
 	- Subset creation for addresses with a common pattern
 
 
-
 # admin
 	- points of admin
 	- default admin-panel
@@ -352,12 +354,10 @@
 	- set validation-field in admin-panel
 
 
-
 # app
 	- points of app
 	- create new app
 	- create app inside main directory
-
 
 
 # models
@@ -399,8 +399,8 @@
 	- content types
 
 
-
 # middleware
+
 
 # db
 	- points of database
@@ -409,7 +409,6 @@
 	- mySQL
 	- mongoDB
 	- use several databases
-
 
 
 # forms
@@ -437,8 +436,7 @@
 	- management forms.ValidationError
 
 
-
-# authentication
+# Authentication
 	- points of auth
 	-[NOT USE] use default User-model-class
 	-[NOT USE] relation one-to-one with default User-model-class
@@ -464,7 +462,6 @@
 	- login by phone number
 
 
-
 # security
 	- security topics
 	- protected admin-panel-url
@@ -472,7 +469,6 @@
 	- cross site scripting (XSS)
 	- python-decouple
 	- points of security
-
 
 
 # permission
@@ -508,9 +504,7 @@
 	- downstream caches
 
 
-
 # sessions
-
 
 
 # testing
@@ -529,7 +523,6 @@
 		- pytest marks functions
 		- custom mark functions
 		- fixture method
-
 
 
 # aggregation
@@ -642,10 +635,6 @@
 # practical example and its tips
 # testing
 # swagger
-
-
-
-
 
 
 
