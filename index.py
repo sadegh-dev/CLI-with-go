@@ -216,7 +216,8 @@ Bootstrap   *3
 # pillow_module
 # pylint_module
 # mypy_module
-
+# pickle_module
+# queue_module
 
 
 
