@@ -691,17 +691,13 @@ ways of authentication & authorization
 unit testing
 TDD : test-driven development
 automated testing
-python libraries
+
 OOP : SOLID / KISS / DRY
-Design patterns
 error handling
 
 RDBMS
 database design
 query optimization
-
-multi threading
-multi proccesing
 
 data engineering
 server config
@@ -721,13 +717,8 @@ gitlab CI/CD
 ll
 -----------------------
 
-Redis
 webSocket programming
-mongodb
 
 soap
-nginx
-
-
 
 """
