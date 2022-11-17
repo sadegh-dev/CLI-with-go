@@ -130,11 +130,11 @@ Bootstrap   *3
 
 	- Meta class
 	- nasted class
-	+ descriptors
+	+ Descriptors in Properties
 		- @property [getter]
 		- @name.setter
 		- @name.deleter
-	+ descriptors
+	+ Descriptors in Methods and Functions
 		- __set_name__
 		- __get__
 		- __set__
