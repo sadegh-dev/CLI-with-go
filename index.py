@@ -64,7 +64,7 @@ Bootstrap   *3
 
 # context_manager
 # annotations
-# regex
+
 # security
 
 # Multi_Threading
@@ -162,7 +162,6 @@ Bootstrap   *3
 	- composite [creational]
 
 
-
 # Unit_Test
 	- general
 	- doctest module
@@ -217,7 +216,7 @@ Bootstrap   *3
 # mypy_module
 # pickle_module
 # queue_module
-
+# regex_module
 
 
 ############## [DJANGO] ###############
@@ -420,7 +419,7 @@ Bootstrap   *3
 	- create date-time field
 	- create shamsi date-time field
 	- create form by forms.ModelForm
-	- help_desk – widget – error_messages in forms.ModelForm
+	- help_desk - widget - error_messages in forms.ModelForm
 	- create edit-form by forms.ModelForm
 	- edit 2 model-class by 1 form
 	- create delete-button by forms.ModelForm
