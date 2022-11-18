@@ -228,7 +228,7 @@ Bootstrap   *3
 	- upload django project on server
 
 
-# general
+# general [complete]
 	- general points
 	- request.method
 	- running multiple Django projects through different ports 
