@@ -115,18 +115,17 @@ Bootstrap   *3
 		- __add__
 		- __len__
 		- __missing__
-
-		- __getitem__
-		- __setitem__
-		- __delitem__
-
-		- __getattr__
-		- __setattr__
-		- __delattr__
-		- __getattribute__
-
 		- __reversed__
 		- __bool__
+		+ class like LIST
+			- __getitem__
+			- __setitem__
+			- __delitem__
+		+ manage Properties
+			- __getattr__
+			- __setattr__
+			- __delattr__
+			- __getattribute__
 
 	- Meta class
 	- nasted class
@@ -223,7 +222,7 @@ Bootstrap   *3
 
 ############## [DJANGO] ###############
 
-# launch
+# launch [complete]
 	- config settings for launch
 	- delete static settings from main urls.py
 	- upload django project on server
@@ -237,7 +236,7 @@ Bootstrap   *3
 	- Meta class
 
 
-# install
+# install [complete]
 	- create project
 	- rename project
 
