@@ -1,23 +1,4 @@
 """
-Python *5
-OOP    *5
-Design Patterns *3
-RabbitMQ  *3
-
-Django *5
-DRF    *5
-Celery *5
-
-PostgreSQL *3
-MongoDB    *3
-
-Linux  *3
-Docker *3
-GIT    *5
-GitLab CI/CD  *3
-
-Html / CSS  *5
-Bootstrap   *3
 
 
 ############### [PYTHON] ###############
@@ -257,7 +238,7 @@ Bootstrap   *3
 	- access to HTTP-method
 	- initialize the variable by with
 	- create link
-	- partitioning HTML files
+	- * partitioning HTML files
 	- pagination
 	- list tags
 	- built-in template filter
@@ -360,12 +341,12 @@ Bootstrap   *3
 
 
 # models
-	- points of models
-	- create package model
-	- ORM : object relational mapping
-	- naming model
-	- field types
-	- field options
+	- * points of models
+	- * create package model
+	- * ORM : object relational mapping
+	- * naming model
+	- * field types
+	- * field options
 	+ related methods
 		- create method
 		- save method
@@ -375,13 +356,13 @@ Bootstrap   *3
 		- clear method
 		- set method
 		- update method
-	+ overrite default methods
+	+ * override default methods
 		- override save method
 		- override delete method
-	- creating proccessing functions on field
-	- __str__ method in model-class
-	- get_absolute_url method in model-class
-	- Meta class in model-class
+	- * creating proccessing functions on field
+	- * __str__ method in model-class
+	- * get_absolute_url method in model-class
+	- * Meta class in model-class
 	+ abstract - inheritance
 		- abstract base classes
 		- multi-table inheritance
@@ -411,7 +392,7 @@ Bootstrap   *3
 
 
 # forms
-	- strategy
+	- * strategy
 	- points of forms
 	- normal form structure
 	- list of field-form
