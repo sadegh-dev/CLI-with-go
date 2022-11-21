@@ -360,6 +360,7 @@
 		- override save method
 		- override delete method
 	- * creating proccessing functions on field
+	- * create custom validation of field
 	- * __str__ method in model-class
 	- * get_absolute_url method in model-class
 	- * Meta class in model-class
@@ -393,23 +394,23 @@
 
 # forms
 	- * strategy
-	- points of forms
-	- normal form structure
-	- list of field-form
-	- list of widgets
-	- create date-time field
+	- * points of forms
+	- * normal form structure
+	- * list of fields-form
+	- * list of widgets
+	- * create date-time field
 	- create shamsi date-time field
-	- create form by forms.ModelForm
-	- help_desk - widget - error_messages in forms.ModelForm
-	- create edit-form by forms.ModelForm
-	- edit 2 model-class by 1 form
-	- create delete-button by forms.ModelForm
-	- initialization fields-form
+	- * create form by forms.ModelForm
+	- * help_desk - widget - error_messages in forms.ModelForm
+	- * create edit-form by forms.ModelForm
+	- ** edit 2 model-class by 1 form
+	- * create delete-button by forms.ModelForm
+	- * initialization fields-form
 	- set reCAPTCHA in form
-	- create form by forms.Form
+	- * create form by forms.Form
 	- create 2 form in 1 page
-	- different ways of displayeing form in html-page
-	- default validation and form errors
+	- ** different ways of displayeing form in html-page
+	- * default validation and form errors
 	- create custom validation form
 	- set persian form-errors
 	- deactive validation-fom [not recommended]
@@ -500,7 +501,7 @@
 	- testing models
 	- testing views
 	+ pytest module for django project
-		- pytest marks functions
+		- pytest mark functions
 		- custom mark functions
 		- fixture method
 
