@@ -3,8 +3,8 @@
 
 ############### [PYTHON] ###############
 
-# install
-# pip
+# install *
+# pip *
 # env
 # general
 # input
@@ -334,7 +334,7 @@
 	- set validation-field in admin-panel
 
 
-# app
+# app 
 	- points of app
 	- create new app
 	- create app inside main directory
@@ -347,7 +347,7 @@
 	- * naming model
 	- * field types
 	- * field options
-	+ related methods
+	+ related methods 
 		- create method
 		- save method
 		- delete method
@@ -392,7 +392,7 @@
 	- use several databases
 
 
-# forms
+# forms [complete]
 	- * strategy
 	- * points of forms
 	- * normal form structure
@@ -411,33 +411,33 @@
 	- create 2 form in 1 page
 	- ** different ways of displayeing form in html-page
 	- * default validation and form errors
-	- create custom validation form
-	- set persian form-errors
+	- ** create custom validation form
+	- ** set persian form-errors
 	- deactive validation-fom [not recommended]
-	- management forms.ValidationError
+	- * management forms.ValidationError
 
 
 # Authentication
-	- points of auth
-	-[NOT USE] use default User-model-class
-	-[NOT USE] relation one-to-one with default User-model-class
-	-* custom User-model-class
-	- different AbstractUser and AbstractBaseUser
+	- * points of auth
+	- [NOT USE] use default User-model-class
+	- [NOT USE] relation one-to-one with default User-model-class
+	- ** custom User-model-class
+	- * different AbstractUser and AbstractBaseUser
 	- use CBV in authentication Views
-	- change authentication password
-	- oauth
-	- reset password by CBV
-	- signup new-user by create_user method in default User-model-class
-	- default login method
-	-[NOT USE] use authentication-backend for get Email and use comparison username and email
-	- default logout method
-	- access user-data in views after login
-	- access user-data in template-file after login
+	- ** change authentication password
+	- [check] oauth
+	- reset password by CBV for send email
+	- *signup new-user by create_user method in default User-model-class
+	- ** default login method
+	- [NOT USE] use authentication-backend for get Email and use comparison username and email
+	- ** default logout method
+	- ** access user-data in views after login
+	- ** access user-data in template-file after login
 	- block out run function-views for user not logged
 	- block out run class-views for user not logged
-	-[NOT USE] default register method [with more fields]
-	-[NOT USE] create one-to-one User-class with profile-class
-	-[NOT USE]	create password and confirm password fields
+	- [NOT USE] default register method [with more fields]
+	- [NOT USE] create one-to-one User-class with profile-class
+	- [NOT USE]	create password and confirm password fields
 	- determining the user path after logout
 	- allow access to own page, not others
 	- login by phone number
