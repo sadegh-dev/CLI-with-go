@@ -210,7 +210,6 @@
 
 # general [complete]
 	- general points
-	- request.method
 	- running multiple Django projects through different ports 
 	- run command on shell
 	- Meta class
@@ -221,7 +220,7 @@
 	- rename project
 
 
-# settings
+# settings [complete]
 	- general config
 	- general variables
 	- connect to email-service [like gmail]
@@ -304,23 +303,24 @@
 
 
 # urls
-	- points of urls
+	- points of urls *
 	- Error handling
 	- create url by parameters
-	- Initial value for passed arguments
-	- path function
+	- Initial value for passed arguments *
+	- path function *
 	- re_path function
-	- set url-name
-	- cancellation of famous url-name
-	- set namespace for app
-	- create unique url-slug
-	- send parameters by url to views
-	- persian url
-	- set slug in admin panel
+	- set url-name *
+	- cancellation of famous url-name *
+	- set namespace for app *
+	- create unique url-slug *
+	- send parameters by url to views *
+	- persian url *
+	- set slug in admin panel *
 	- reverse, reverse_lazy methods
 	- difference in methods of reverse - reverse_lazy
 	- grouping urlpatterns
 	- Subset creation for addresses with a common pattern
+    - send additional data to path ans include
 
 
 # admin
@@ -334,7 +334,7 @@
 	- set validation-field in admin-panel
 
 
-# app 
+# app [complete]
 	- points of app
 	- create new app
 	- create app inside main directory
