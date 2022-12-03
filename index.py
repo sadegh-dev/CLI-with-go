@@ -16,27 +16,29 @@
 
 # algorithms
 	- Time complexity
-# clean_code
-# pep8
+# clean_code [*]
+# pep8 [*]
 
 
-# variable
+# variable [*]
 	- naming rules
 	- namespaces
 	- ...
-# math
+# math [*]
 	- casting
 	- math methods
-# string
-# rando_module
-# math_module
+# string [*]
+# random_module [*]
+# math_module [*]
 
-# iteration
-# array
-# list
+
+# iteration [*]
+# array [*]
+# list [*]
 # set
 # tuple
-# dictionary
+# dictionary [*]
+
 
 # collections_module
 # itertools_module
