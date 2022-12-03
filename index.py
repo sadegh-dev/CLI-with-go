@@ -3,8 +3,8 @@
 
 ############### [PYTHON] ###############
 
-# install *
-# pip *
+# install
+# pip
 # env
 # general
 # input
@@ -13,12 +13,20 @@
 # anaconda
 # file
 
+
 # algorithms
+	- Time complexity
 # clean_code
 # pep8
 
+
 # variable
+	- naming rules
+	- namespaces
+	- ...
 # math
+	- casting
+	- math methods
 # string
 # rando_module
 # math_module
