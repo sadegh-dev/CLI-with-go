@@ -9,3 +9,7 @@ func main() {
 	fmt.Println("---------------------")
 	fmt.Println("=>")
 }
+
+func execPINGCommand(cmdParam string) string {
+	return "execPINGCommand"
+}
