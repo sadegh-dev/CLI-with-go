@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-	//commands
+	fmt.Println("Cloud CLI")
+	fmt.Println("---------------------")
+	fmt.Println("=>")
 }
