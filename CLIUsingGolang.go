@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strings"
 	//"os/exec"
-	//"strings"
 )
 
 func main() {
@@ -18,7 +18,12 @@ func main() {
 		userInput := scanner.Text()
 		fmt.Println(userInput)
 		fmt.Println("=>")
+
+		if strings.Compare("exit", userInput) == 0 {
+			os.Exit(0)
+		}
 	}
+
 }
 
 func execPINGCommand(cmdParam string) string {
