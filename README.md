@@ -203,73 +203,48 @@ If the input received is exit then it exits the CLI. You are now ready to take o
 
 5-
 
-Welcome back. In the last task you implemented an exit command
-to quit the command line interface and terminate the program.
-By the end of this task you will be able to add a checkinfyconnect
-connect command that accepts an IP
-address as an option to the command line interface.
-Now let's get started. Open the CLIUsingGolang.go file
-placed in the folder CLIUsingGolang
-on your desktop.
-The program at Step four must accept a new command
-in the format
-checkinfyconnect IPaddress.
+Welcome back. In the last task you implemented an exit command to quit the command line interface and terminate the program.
+
+By the end of this task you will be able to add a checkinfyconnect connect command that accepts an IP
+
+address as an option to the command line interface. Now let's get started. Open the CLIUsingGolang.go file placed in the folder CLIUsingGolang on your desktop.
+
+The program at Step four must accept a new command in the format checkinfyconnect IPaddress.
 This command is accepted as a string user input.
-The Split function of the strings package must be used
-to split the user input into two strings.
-the command string checkinfyconnect and the IPaddress,
-The Split function of the strings package slices
-the string specified as the first parameter into all sub
-strings separated by a separator, which is specified
-as the second parameter. Slices in golang are an advanced
-implementation on top of arrays.
-They were implemented in go to cover some of the more
-common use cases faced by developers when working
-with collections like dynamically changing their size.
-Declaring a slice is almost the same as declaring an array
-except that you must omit the length specifier
-If the first string of the command entered is checkinfyconnect
-then call the function execPINGCommand which we
-will implement in our next task in this program.
-The execPINGCommand function simply returns the string
-"execPINGCommand".
-If the first string of the command entered is anything other
-than checkinfyconnect then the program displays
-the print statement "Command not supported by the CLI" Pause
-this video here and take the time to complete.
-Step 4.
-Welcome back.
+
+The Split function of the strings package must be used to split the user input into two strings. 
+
+the command string checkinfyconnect and the IPaddress, The Split function of the strings package slices the string specified as the first parameter into all sub strings separated by a separator, which is specified as the second parameter. 
+
+Slices in golang are an advanced implementation on top of arrays. 
+
+They were implemented in go to cover some of the more common use cases faced by developers when working with collections like dynamically changing their size.
+
+Declaring a slice is almost the same as declaring an array except that you must omit the length specifier If the first string of the command entered is checkinfyconnect then call the function execPINGCommand which we will implement in our next task in this program.
+
+The execPINGCommand function simply returns the string "execPINGCommand".
+If the first string of the command entered is anything other than checkinfyconnect then the program displays the print statement "Command not supported by the CLI" Pause this video here and take the time to complete.
+
+Step 4. Welcome back.
 Let's look at the solution together.
-The input command checkinfyconnect with an IP
-Address option is accepted as a string user input.
-The split function of the strings package is used to split
-the user input into two strings,
-the command string checkinfyconnect and the IP
-Address string. Split function of the strings package slices
-the string specified as the first parameter into all sub
-strings separated by a separator specified as the second
-parameter.
-The slice "commandString" in this case is declared just
-like an array by omitting the length specifier.
-The Compare function is used to check if the command input is
-checkinfyconnect.
-If this condition evaluates to true then the user defined
-function "execPINGCommand" is executed.
-If this condition evaluates to false then "Command not
-supported by the CLI is printed on the console".
-Functions in go are declared using the func keyword
-followed by a function name followed by a parameter list
-followed by a return type.
-Run the code using the "go run CLIUsingGolang.go"
-command.
-The program displays a prompt and waits for user input.
-If the input received is checkinfyconnect then
-it displays "execPINGCommand" on the console.
-For any other input say,
-dir, it displays "Command not supported by CLI". You are now ready
-to take on the next challenge to implement the checkinfyconnect
-command to test connectivity of the command line
-interface with any machine on the cloud.
+The input command checkinfyconnect with an IP Address option is accepted as a string user input.
+
+The split function of the strings package is used to split the user input into two strings, the command string checkinfyconnect and the IP Address string. 
+
+Split function of the strings package slices the string specified as the first parameter into all sub strings separated by a separator specified as the second parameter.
+
+The slice "commandString" in this case is declared just like an array by omitting the length specifier.
+
+The Compare function is used to check if the command input is checkinfyconnect.
+If this condition evaluates to true then the user defined function "execPINGCommand" is executed.
+If this condition evaluates to false then "Command not supported by the CLI is printed on the console".
+
+Functions in go are declared using the func keyword followed by a function name followed by a parameter list followed by a return type. Run the code using the "go run CLIUsingGolang.go" command.
+
+The program displays a prompt and waits for user input. 
+If the input received is checkinfyconnect then it displays "execPINGCommand" on the console.
+
+For any other input say, dir, it displays "Command not supported by CLI". You are now ready to take on the next challenge to implement the checkinfyconnect command to test connectivity of the command line interface with any machine on the cloud.
 
 
 6-
