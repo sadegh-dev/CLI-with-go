@@ -249,83 +249,55 @@ For any other input say, dir, it displays "Command not supported by CLI". You ar
 
 6-
 
-Welcome back. In the last task you added the checkinfyconnect
-command to the command line interface.
-By the end of this task you will be able to implement
-the "execPINGCommand" method that executes when the command
-entered is checkinfyconnect with an IP address
-as a command line option.
-Now let's get started. Open the CLIUsingGolang.go file
-placed in the folder CLIUsingGolang on your desktop.
-The program at step five implements the execPINGCommand
-function created in the last task.
-This function executes the Windows
-OS command "cmd /c ping -3 172.31.17.99"
- to test connectivity
-with the machine on the cloud.
-This is done using the Command function of the os/exec
-package in Golang. Package os/exec runs external
-commands.
-The Command function returns the cmd struct to execute
-the named program, the Windows cmd program in our case,
-with the given arguments. CombinedOutput function runs
-the command and returns its combined standard output
-and standard error.
-This is returned as an byte array and error objects.
-The string function can be used to convert the bytearray
-returned into a string returned value. Handle errors
-by comparing the returned error to nil.
-A nil value indicates that no error has occurred and a non-nil
-value indicates the presence of an error.
-Go ahead and pause this video to complete step
-five of the program.
+Welcome back. In the last task you added the checkinfyconnect command to the command line interface.
+By the end of this task you will be able to implement the "execPINGCommand" method that executes when the command entered is checkinfyconnect with an IP address as a command line option.
+
+Now let's get started. Open the CLIUsingGolang.go file placed in the folder CLIUsingGolang on your desktop.
+The program at step five implements the execPINGCommand function created in the last task.
+
+This function executes the Windows OS command "cmd /c ping -3 172.31.17.99" to test connectivity with the machine on the cloud.
+
+This is done using the Command function of the os/exec package in Golang. Package os/exec runs external commands.
+
+The Command function returns the cmd struct to execute the named program, the Windows cmd program in our case, with the given arguments. CombinedOutput function runs the command and returns its combined standard output and standard error.
+
+This is returned as an byte array and error objects. The string function can be used to convert the bytearray
+returned into a string returned value. 
+
+Handle errors by comparing the returned error to nil. A nil value indicates that no error has occurred and a non-nil value indicates the presence of an error.
+
+Go ahead and pause this video to complete step five of the program.
 We will see the solution once you replay this video.
 Welcome back. Let's look at the solution together.
-The if statement here supports a composite syntax where
-the tested condition, err!=nil is preceded
-by an initialization statement which assigns the output
-of running the Command function of the exec package
-to the variables c and err.
-Command function returns the Cmd struct to execute the
-named program with the given arguments.
-CombinedOutput function of the Cmd struct runs the Windows
-command cmd and returns its combined standard output
-and standard error.
-The output returned from this function is a byte array and error.
-Handling errors in go is done by comparing the returned
-error to nil.
-An nil value indicates that no error has occurred and a non-nil
-value indicates the presence of an error.
-The string function can be used to convert the byte array
-returned into a string return value.
-Run the code using the "go run CLIUsingGolang.go"
-command.
+The if statement here supports a composite syntax where the tested condition, err!=nil is preceded by an initialization statement which assigns the output of running the Command function of the exec package to the variables c and err.
+
+Command function returns the Cmd struct to execute the named program with the given arguments.
+CombinedOutput function of the Cmd struct runs the Windows command cmd and returns its combined standard output and standard error.
+
+The output returned from this function is a byte array and error. Handling errors in go is done by comparing the returned error to nil.
+
+An nil value indicates that no error has occurred and a non-nil value indicates the presence of an error. 
+The string function can be used to convert the byte array returned into a string return value. 
+Run the code using the "go run CLIUsingGolang.go" command.
    
-The program displays the CLI. Type, the checkinfyconnect 172.31.17.99
-command at the prompt.
-The output of the ping command executed as a result
-will be visible to you.
-You have successfully implemented the command to test
-connectivity of the command line interface with any machine
-on the internet.
+The program displays the CLI. Type, the checkinfyconnect 172.31.17.99 command at the prompt.
+
+The output of the ping command executed as a result will be visible to you. You have successfully implemented the command to test
+connectivity of the command line interface with any machine on the internet.
 
 
 
 7-
 
-Congratulations on completing this guided project
-about implementing a command line interface to connect
-to a cloud.
-using Golang.
-In this project, we covered the design of the program and the
-coding syntax to implement the solution.
-By now, you should feel comfortable building a simple Golang
-program.
-Remember to continue testing your knowledge
-about the material covered in this project by completing
-the final graded quiz.
-Thank you for spending this time with me today, and I hope
-you enjoyed this project.
+Congratulations on completing this guided project about implementing a command line interface to connect to a cloud.
+
+using Golang. In this project, we covered the design of the program and the coding syntax to implement the solution.
+
+By now, you should feel comfortable building a simple Golang program.
+
+Remember to continue testing your knowledge about the material covered in this project by completing the final graded quiz.
+
+Thank you for spending this time with me today, and I hope you enjoyed this project.
 I'm Meghna, and it's been a pleasure guiding you.
 
 
