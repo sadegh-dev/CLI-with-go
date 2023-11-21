@@ -33,9 +33,9 @@ func main() {
 		}
 		fmt.Println("=>")
 	}
-
 }
 
 func execPINGCommand(cmdParam string) string {
+	// Execute OS command ping
 	return "execPINGCommand"
 }
