@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"os/exec"
 	"strings"
 	//"os/exec"
 )
@@ -37,5 +38,10 @@ func main() {
 
 func execPINGCommand(cmdParam string) string {
 	// Execute OS command ping
-	return "execPINGCommand"
+	if c, err := exec.Command("cmd", "c", "ping", "-n", "3", cmdParam).CombinedOutput(); err != nil {
+		s := "Error! Command execution faild"
+		return (s)
+	} else {
+		return string(c)
+	}
 }
