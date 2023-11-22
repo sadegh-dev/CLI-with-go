@@ -72,21 +72,13 @@ create the prompt for the command line interface.
 
 2-
 
-Welcome back. In the last task we verified the golang
-installation.
-You are now ready to code your program in golang.
-You will start by creating the initial display
-with the prompt for the command line interface
-we aim to build in this guided project.
-Use the code template shared in the using CLIUsingGolang folder on your
-desktop.
-Throughout this project you will be completing the steps
-in the code template shared with you.
-This is so that we can make the most out of the short time
-we have. Let's open this program together. On your desktop,
-navigate to the folder CLIUsingGolang. Right click to open
-the CLIUsingGolang.go file
-using sublime text editor.
+Welcome back. In the last task we verified the golang installation.
+You are now ready to code your program in golang. You will start by creating the initial display
+with the prompt for the command line interface we aim to build in this guided project.
+Use the code template shared in the using CLIUsingGolang folder on your desktop.
+Throughout this project you will be completing the steps in the code template shared with you.
+This is so that we can make the most out of the short time we have. Let's open this program together. On your desktop,
+navigate to the folder CLIUsingGolang. Right click to open the CLIUsingGolang.go file using sublime text editor.
   
 Here you see a comment "Step 1" with the instructions
 to complete the first step in building your program.
