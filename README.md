@@ -1,72 +1,36 @@
 # command Line Interface (CLI) With Golang
 
 1-
-Welcome to this advanced guided project on using go
-language to connect to a cloud provider. By the end
-of this project
-you will have built a command line interface using the go
+Welcome to this advanced guided project on using go language to connect to a cloud provider. By the end of this project you will have built a command line interface using the go
 programming language.
-This project is for any programmer who is looking to advance
-their software development career by learning go.
-In order to be successful in this project, you will need
-to know some basic constructs of programming as well as have
-a simple working knowledge of the Windows Operating System.
-My name is Meghna and I will be your instructor.
-As a technical educator for over 22 years
-I have designed training programs around various programming
-languages including go.
-Now let's get started with our project. For the purpose
-of this project
-imagine you are a system engineer trainee working
-at Infosys. One of the major responsibilities in this role
-is implementing software solutions required by the company.
-You have been assigned the responsibility to build a command
-line interface that can help Infosys employees in connecting
-to the private cloud available at Infosys using Go language.
-The first step in getting towards this goal of building
-a command line interface in go is to test the golang
-installation in your project environment.
-It has already been installed for you as a part
-of the workspace set up.
-You will open the command prompt by clicking the shortcut
-provided on your desktop and execute the command "go version".
+
+This project is for any programmer who is looking to advance their software development career by learning go. In order to be successful in this project, you will need
+to know some basic constructs of programming as well as have a simple working knowledge of the Windows Operating System.
+My name is Meghna and I will be your instructor. As a technical educator for over 22 years
+
+I have designed training programs around various programming languages including go. Now let's get started with our project. For the purpose of this project imagine you are a system engineer trainee working
+at Infosys. One of the major responsibilities in this role is implementing software solutions required by the company.
+You have been assigned the responsibility to build a command line interface that can help Infosys employees in connecting to the private cloud available at Infosys using Go language.
+
+The first step in getting towards this goal of building a command line interface in go is to test the golang installation in your project environment.
+
+It has already been installed for you as a part of the workspace set up. You will open the command prompt by clicking the shortcut provided on your desktop and execute the command "go version".
   
-Confirm that the command prints the installed
-version 1.17 of go on your screen.
-Great. You have just completed the Golang installation in your
-project environment.
-  
-Let us see the command line interface you will build in
-this guided project.
-The command line prompt will accept commands from the end
-user. The commands you will support are exit
-and checkinfyconnect. exit will terminate the command line
-interface and exit the program. checkinfyconnect will
-execute the ping command in the background to test
-connectivity with any machine on the cloud.
+Confirm that the command prints the installed version 1.17 of go on your screen. Great. You have just completed the Golang installation in your project environment.
+
+Let us see the command line interface you will build in this guided project. The command line prompt will accept commands from the end user. The commands you will support are exit and checkinfyconnect. exit will terminate the command line
+interface and exit the program. checkinfyconnect will execute the ping command in the background to test connectivity with any machine on the cloud.
+
 Let us see these commands in action.
-  
- For checkinfyconnect command
-I am using the IP address of the VM assigned to me.
-The exit command terminates the command line interface.
-A code template with steps to implement
-this program is shared as CLIUsingGolang.go file in the
-CLIUsingGolang folder on your desktop.
+For checkinfyconnect command I am using the IP address of the VM assigned to me.
+
+The exit command terminates the command line interface. A code template with steps to implement this program is shared as CLIUsingGolang.go file in the CLIUsingGolang folder on your desktop.
 Let us go through the code template.
-The documentation for each step is provided as comments
-which include a toolkit for you.
-The toolkit specifies input for each step, variable names
-used, functions to be used, packages that the functions belong
+
+The documentation for each step is provided as comments which include a toolkit for you. The toolkit specifies input for each step, variable names used, functions to be used, packages that the functions belong
 to, and output if any.
-In some cases it also includes the struct that the function
-belongs to within a package.
-You need to build the program by adding code after the
-comment for the step. You will need to pay careful attention
-to the scope of the program statements
-you write like looping constructs or method boundaries. In the
-next task
-you will complete the step one of the code template to
-create the prompt for the command line interface.
+
+In some cases it also includes the struct that the function belongs to within a package. You need to build the program by adding code after the comment for the step. You will need to pay careful attention to the scope of the program statements you write like looping constructs or method boundaries. In the next task you will complete the step one of the code template to create the prompt for the command line interface.
 
 
 
